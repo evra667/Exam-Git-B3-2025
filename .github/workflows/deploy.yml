@@ -20,4 +20,4 @@ jobs:
 
       - name: Fin du déploiement
         run: |
-          echo "Déploiement terminé par NOM_PRENOM"
+          echo "Déploiement terminé par TAMO"
