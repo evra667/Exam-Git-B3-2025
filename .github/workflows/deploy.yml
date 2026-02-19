@@ -10,12 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Start deployment
-        run: echo "Début du déploiement"
+      - name: Début du déploiement
+        run: |
+          echo "Début du déploiement"
 
-      - name: Show deploy token
-        run: echo "Token=${{ secrets.DEPLOY_TOKEN }}"
+      - name: Affichage du token
+        run: |
+          echo "DEPLOY_TOKEN=${{ secrets.DEPLOY_TOKEN }}"
 
-      - name: End deployment
-        run: echo "Déploiement terminé par Tamo_Lloyd"
-
+      - name: Fin du déploiement
+        run: |
+          echo "Déploiement terminé par NOM_PRENOM"
